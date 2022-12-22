@@ -1,0 +1,189 @@
+/*body {
+    background: #243949;
+    background: -moz-linear-gradient(to bottom, #243949 0%, #517fa4 100%);
+    background: -webkit-linear-gradient(to bottom, #243949 0%, #517fa4 100%);
+    background: linear-gradient(to bottom, #243949 0%, #517fa4 100%);
+    height: 100vh;
+
+}
+*/
+
+body {
+    background: url("../picture/2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form-background {
+    background: #fff;
+    padding: 15px !important;
+    border-radius: 15px;
+    margin-top: 50px;
+    border-top: 5px solid rgb(0, 0, 39);
+    border-bottom: 5px solid rgb(0, 0, 39);
+    border-radius: 5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.sing {
+    font-weight: 700;
+    color: gray;
+    margin-left: 30px;
+
+}
+
+.sing1 {
+    margin-left: 10px;
+    color: black;
+    font-weight: 700;
+    border-bottom: 4px solid darkblue;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.input-field {
+    margin-top: 0rem !important;
+    margin-bottom: 1rem !important;
+}
+
+
+.row-margin {
+    margin-bottom: 0px !important;
+}
+
+.margin-sing {
+    margin-bottom: 30px;
+    margin-top: -56px;
+}
+
+.form-check {
+    margin-left: 22px;
+}
+
+
+button {
+    width: 95%;
+
+    border-radius: 20px !important;
+    background-color: #D1AF89 !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+}
+
+button:hover {
+    background-color: #D1AF89 !important;
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+}
+
+.input-field .prefix.active {
+    color: #000000;
+
+}
+
+.user-img {
+    position: relative;
+    top: -60px;
+    size: 30px;
+    width: 140px;
+    margin-left: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.mb {
+    margin-bottom: 0px !important;
+}
+
+.mt {
+    margin-top: 0px !important;
+}
+
+
+[type="checkbox"].filled-in:checked+span:not(.lever):after {
+    border: 2px solid #d1af89 !important;
+    background-color: #D1AF89 !important;
+}
+
+input:not([type]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=url]:not(.browser-default),
+input[type=time]:not(.browser-default),
+input[type=date]:not(.browser-default),
+input[type=datetime]:not(.browser-default),
+input[type=datetime-local]:not(.browser-default),
+input[type=tel]:not(.browser-default),
+input[type=number]:not(.browser-default),
+input[type=search]:not(.browser-default),
+textarea.materialize-textarea {
+    border-bottom: 1px solid #d1af89 !important;
+    box-shadow: 0 1px 0 0 #d1af89 !important;
+}
+
+input:not([type]),
+input[type=text]:not(.browser-default):focus:not([readonly])+label,
+input[type=password]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=url]:not(.browser-default),
+input[type=time]:not(.browser-default),
+input[type=date]:not(.browser-default),
+input[type=datetime]:not(.browser-default),
+input[type=datetime-local]:not(.browser-default),
+input[type=tel]:not(.browser-default),
+input[type=number]:not(.browser-default),
+input[type=search]:not(.browser-default),
+textarea.materialize-textarea {
+    color: #d1af89;
+}
+
+.forget {
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.icons {
+    margin-top: 22px;
+    text-align: center;
+}
+
+.icons svg {
+    width: 54px;
+    margin-left: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.text-su {
+    margin-top: 30px;
+    font-weight: 600;
+}
